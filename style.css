@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(45deg, #00FFFF, #FF007F);
+}
+
+h1 {
+  font-size: 3rem;
+  color: #FF1493;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Define o estilo da tabela e das células */
+table#board {
+  width: 500px;
+  height: 500px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px #fff;
+}
+
+table#board td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 48px;
+  font-weight: bold;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-color: #202040;
+  color: #fff;
+}
+
+table#board td:hover {
+  background-color: #FF6EC7;
+  box-shadow: 0px 0px 20px #FF6EC7;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Define o estilo das células marcadas */
+table#board td.marked {
+  color: #FFD700;
+  text-shadow: 0px 0px 10px #FFD700;
+}
+
+/* Define o estilo do botão de reiniciar */
+button#reset {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: #FFD700;
+  border: 2px solid #fff;
+  cursor: pointer;
+  color: #202040;
+  transition: all 0.2s ease-in-out;
+}
+
+button#reset:hover {
+  background-color: #fff;
+  color: #FFD700;
+  box-shadow: 0px 0px 20px #FFD700;
+  transition: all 0.2s ease-in-out;
+}
